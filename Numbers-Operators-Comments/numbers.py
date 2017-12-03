@@ -19,3 +19,9 @@ print(myDivision)
 myPower = 2 ** 3
 print(myPower)
 
+myMod = 12 % 3
+print(myMod)
+
+myIntDiv = 32 // 3
+print(myIntDiv)
+
