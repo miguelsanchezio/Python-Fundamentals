@@ -16,3 +16,6 @@ python_list = [1,2,3, 'a', 'b', 'c']
 
 #dictionary
 python_dictionary = { 'first_name': 'Miguel', 'last_name': 'Sanchez' }
+
+# none, none is like null in Javascript
+python_none = None
