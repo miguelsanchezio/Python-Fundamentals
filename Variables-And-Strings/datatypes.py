@@ -19,3 +19,10 @@ python_dictionary = { 'first_name': 'Miguel', 'last_name': 'Sanchez' }
 
 # none, none is like null in Javascript
 python_none = None
+
+# converting data types
+decimal = 12.312512313
+integer = int(decimal) # 12
+
+a_list = [1, 2, 3]
+a_list_as_string = str(a_list) # "[1, 2, 3]"
