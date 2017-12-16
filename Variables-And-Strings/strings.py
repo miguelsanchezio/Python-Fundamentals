@@ -21,4 +21,11 @@ print(ten_ex)
 
 name = 'Miguel'
 name += ' Sanchez'
-print(nam)
+print(name)
+
+# string formatting
+# f strings
+guess = 8
+print(f'Your guess of {guess} was correct.')
+#old way
+print('Your {} was correct.'.format(guess))
