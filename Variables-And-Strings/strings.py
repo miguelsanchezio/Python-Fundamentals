@@ -12,3 +12,13 @@ print(backslash)
 
 quotes = 'Hello \'world\''
 print(quotes)
+
+# string concatenation
+str_one = 'The'
+str_two = '10X Rule'
+ten_ex = str_one + ' ' + str_two
+print(ten_ex)
+
+name = 'Miguel'
+name += ' Sanchez'
+print(nam)
