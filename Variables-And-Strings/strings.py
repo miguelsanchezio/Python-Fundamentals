@@ -29,3 +29,9 @@ guess = 8
 print(f'Your guess of {guess} was correct.')
 #old way
 print('Your {} was correct.'.format(guess))
+
+# strings and indexes/indicies
+str_index = 'Index'
+str_index[0]
+str_index[3]
+str_index[-4]
