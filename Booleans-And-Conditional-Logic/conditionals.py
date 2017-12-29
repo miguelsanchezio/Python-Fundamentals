@@ -22,3 +22,15 @@ else:
 1 > 2 # False
 1 <= 1 # True
 1 >= 2 # False
+
+# logical operators
+age = 6
+
+if age > 2 and age < 8:
+  print('Child price.')
+
+city = input('Where do you live? ')
+if city == 'los angeles' or city == 'san francisco':
+  print('You live in California.')
+else:
+  print('You don\'t live in California')
