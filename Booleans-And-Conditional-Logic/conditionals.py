@@ -34,3 +34,9 @@ if city == 'los angeles' or city == 'san francisco':
   print('You live in California.')
 else:
   print('You don\'t live in California')
+
+age = 21
+if not((age >= 2 and age <= 8) or age >= 65):
+  print('You are not a child or senior. You pay 10 dollars.')
+else:
+  print('You are a child or senior.')
