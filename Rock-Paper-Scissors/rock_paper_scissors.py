@@ -13,3 +13,7 @@ elif p1c == 'scissors' and p2c == 'rock':
   print('Player 2 wins')  
 elif p1c == 'scissors' and p2c == 'paper':
   print('Player 1 wins')
+elif p1c == p2c:
+  print('It\'s a tie!')
+else:
+  print('There was an error, try again.')
