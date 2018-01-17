@@ -7,7 +7,22 @@ tasks = list(range(1, 4))
 
 # accessing values in a list
 colors = ['red', 'blue', 'green']
-print(colors[0])
-print(colors[2])
+# print(colors[0])
+# print(colors[2])
 'orange' in colors # False
 'red' in colors # True
+
+# iterating over lists
+colors_2 = ['orange', 'violet', 'teal']
+for color in colors:
+    print(color)
+
+numbers = [4, 21, 412, 41, 15]
+for num in numbers:
+    print(num * num)
+
+colors_3 = ['magenta', 'crimson', 'emerald', 'ruby']
+i = 0
+while i < len(colors_3):
+    print(f'{i}: {colors_3[i]}')
+    i += 1
