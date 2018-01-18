@@ -38,3 +38,4 @@ data_2 = [1, 2, 3, 4, 4, 4, 5, 6]
 data_2.pop() # popped 6
 data_2.pop(1) # popped 2
 data_2.remove(4) # [1, 2, 3, 4, 4, 5, 6]
+data_2.clear() # clears the list
