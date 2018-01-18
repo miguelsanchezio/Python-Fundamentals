@@ -28,11 +28,11 @@ i = 0
 #     i += 1
 
 # list methods
-# append, extend, insert, clear, pop, remove, clear
+# append, extend, insert, clear, pop, remove, clear, index, count, sort, reverse, join
 data = [1, 2, 3]
 data.append(4)
 data.extend([5, 6, 7, 8])
-data.insert(0, 0)
+data.insert(0, 0) # index, value
 
 data_2 = [1, 2, 3, 4, 4, 4, 5, 6]
 data_2.pop() # popped 6
