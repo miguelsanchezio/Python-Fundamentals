@@ -28,8 +28,13 @@ i = 0
 #     i += 1
 
 # list methods
-# append
+# append, extend, insert, clear
 data = [1, 2, 3]
 data.append(4)
 data.extend([5, 6, 7, 8])
 data.insert(0, 0)
+
+data_2 = [1, 2, 3, 4, 4, 4, 5, 6]
+data_2.pop() # popped 6
+data_2.pop(1) # popped 2
+data_2.remove(4) # [1, 2, 3, 4, 4, 5, 6]
