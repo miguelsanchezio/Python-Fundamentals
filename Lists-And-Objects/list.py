@@ -58,7 +58,12 @@ data_5.sort() # ['Alex', 'Roger', 'Zelda']
 data_6 = ['Coding', 'is', 'fun!']
 ' '.join(data_6) # 'Coding is fun!'
 
-# slicin
+# slicing
 data_7 = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
 colors[::2] # ['red', 'yellow', 'blue', 'violet']
 colors[::-1] # ['violet', 'indigo', 'blue', 'green', 'yellow', 'orange', 'red']
+
+# swapping values
+data_8 = ['James', 'Michelle']
+data_8[0], data_8[1] = data_8[1], data_8[0]
+print(names) # ['Michelle', 'James']
