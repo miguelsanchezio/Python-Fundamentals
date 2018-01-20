@@ -66,4 +66,4 @@ colors[::-1] # ['violet', 'indigo', 'blue', 'green', 'yellow', 'orange', 'red']
 # swapping values
 data_8 = ['James', 'Michelle']
 data_8[0], data_8[1] = data_8[1], data_8[0]
-print(names) # ['Michelle', 'James']
+print(data_8) # ['Michelle', 'James']
