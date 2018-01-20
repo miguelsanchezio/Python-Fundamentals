@@ -57,3 +57,8 @@ data_5.sort() # ['Alex', 'Roger', 'Zelda']
 
 data_6 = ['Coding', 'is', 'fun!']
 ' '.join(data_6) # 'Coding is fun!'
+
+# slicin
+data_7 = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
+colors[::2] # ['red', 'yellow', 'blue', 'violet']
+colors[::-1] # ['violet', 'indigo', 'blue', 'green', 'yellow', 'orange', 'red']
