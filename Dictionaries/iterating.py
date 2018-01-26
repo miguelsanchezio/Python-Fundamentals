@@ -7,3 +7,10 @@ for val in donations.values():
 donations.values()
 donations.keys()
 donations.items()
+
+instructor = {
+    'name': 'Alex'
+}
+
+'age' in instructor # false
+'Alex' in instructor.values() # True
