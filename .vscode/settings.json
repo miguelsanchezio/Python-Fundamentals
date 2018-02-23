@@ -1,5 +1,5 @@
 {
-  "python.pythonPath": "/usr/local/bin/python3",
+  "python.pythonPath": "C:\\Users\\msanc\\AppData\\Local\\Programs\\Python\\Python36\\python.exe",
   "python.linting.pylintEnabled": true,
   "python.linting.enabled": true,
   "editor.tabSize": 4
