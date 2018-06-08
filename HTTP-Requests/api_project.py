@@ -19,9 +19,14 @@ response = requests.get(
 
 data = response.json()
 
-if data['total_jokes'] > 0:
-    print(f"There are {data['total_jokes']} jokes about \"{search_term}\". Here's one: ")
-    ran_num = random.randint(0, data['total_jokes'] - 1)
+num_jokes = data['total_jokes']
+
+if num_jokes > 1:
+    print(f"There are {num_jokes} jokes about \"{search_term}\". Here's one: ")
+    ran_num = random.randint(0, num_jokes - 1)
     print(data['results'][ran_num]['joke'])
+elif num_jokes == 1:
+    print(f'There\'s one joke about "{search_term}".')
+    print(data['results'][0]['joke'])
 else:
     print(f'There aren\'t any jokes about "{search_term}".')
