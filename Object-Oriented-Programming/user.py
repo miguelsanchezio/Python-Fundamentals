@@ -27,6 +27,15 @@ class User:
         self.age += 1
         return f"Happy {self.age}th Birthday, {self.first}!"
 
+    @classmethod
+    def display_active_users(cls):
+        return f"There are currently {cls.active_users} active users."
+
+    @classmethod
+    def from_string(cls, data_str):
+        first, last, age = data_str.split(",")
+        return cls(first, last, int(age))
+
 
 user1 = User("Joe", "Gutierrez", 28)
 user2 = User("Marilynn", "Sanchez", 24)
