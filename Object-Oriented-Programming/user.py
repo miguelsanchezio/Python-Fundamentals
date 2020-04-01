@@ -7,6 +7,9 @@ class User:
         self.age = age
         User.active_users += 1
 
+    def __repr__(self):
+        return f"{self.first} is {self.age}"
+
     def logout(self):
         User.active_users -= 1
         return f"{self.first} has logged out."
