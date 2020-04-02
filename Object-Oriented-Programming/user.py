@@ -40,5 +40,23 @@ class User:
         return cls(first, last, int(age))
 
 
-user1 = User("Joe", "Gutierrez", 28)
-user2 = User("Marilynn", "Sanchez", 24)
+class Moderator(User):
+    total_mods = 0
+
+    def __init__(self, first, last, age, community):
+        super().__init__(first, last, age)
+        self.community = community
+        Moderator.total_mods += 1
+
+    @classmethod
+    def display_active_mods(cls):
+        return f"There are currently {cls.active_users} active mods."
+
+    def remove_post(self):
+        return f"{self.full_name()} removed a post from the {self.community} community."
+
+
+jasmine = Moderator("Jasmine", "Lazaro", 25, "K-Pop")
+print(jasmine.community)
+print(User.display_active_users())
+print(Moderator.display_active_mods())
