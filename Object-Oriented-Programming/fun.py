@@ -10,6 +10,11 @@ class FunDict(dict):
         print("NOICE! LET'S CHANGE THE DICTIONARY!")
         super().__setitem__(key, value)
 
+    def __contains__(self, item):
+        print("LET'S CHECK IF IT CONTAINS SOMETHING!")
+        return super().__contains__(item)
 
 data = FunDict({"first": "Tom", "animal": "cat"})
 print(data)
+
+print("first" in data)
