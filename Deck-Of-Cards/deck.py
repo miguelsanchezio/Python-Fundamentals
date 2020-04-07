@@ -1,6 +1,7 @@
 from random import shuffle
 from .card import Card
 
+
 class Deck:
     suits = ("Hearts", "Diamonds", "Clubs", "Spades")
     values = ("A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K")
@@ -10,6 +11,9 @@ class Deck:
 
     def __repr__(self):
         return "Deck of {} cards".format(self.count())
+
+    def __iter__(self):
+        return iter(self.cards)
 
     def count(self):
         return len(self.cards)
