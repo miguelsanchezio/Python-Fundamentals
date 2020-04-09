@@ -7,4 +7,4 @@ add_positive_numbers(1, 1)
 add_positive_numbers(1, -1)
 
 # If a Python file is run with the -O flag,
-# assertions will not be evaluated
+# assertionsgi will not be evaluated
