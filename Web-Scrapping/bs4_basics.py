@@ -22,11 +22,18 @@ html = """
 """
 
 soup = BeautifulSoup(html, "html.parser")
+
 # d = soup.find("li")
-d = soup.find(id="first")
+# d = soup.find(id="first")
+
 # d = soup.find_all("li")
 # d = soup.find_all(class_="special")
 # d = soup.find_all(attrs={"data-example": "yes"})
 
+# always returns a list
+# d = soup.select("#first")
+# d = soup.select(".special")
+# d = soup.select("div")
+# d = soup.select("[data-example]")
 
 print(d)
