@@ -40,11 +40,9 @@ def play_game():
                 print(f"The answer was: {random_quote['Author']}")
             answer = input("Would you like to play again? (y/n) ")
             while answer != "y" and answer != "n":
-                input("Enter a valid input. Would you like to play again? (y/n) ")
+                answer = input("Enter a valid input. Would you like to play again? (y/n) ")
             if answer == "y":
-                num_guesses = 4
-                random_quote = choice(quotes)
-                print_quote(random_quote["Quote"])
+                return play_game()
             elif answer == "n":
                 print("Thanks for playing.")
                 break
